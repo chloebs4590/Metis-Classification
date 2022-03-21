@@ -1,4 +1,4 @@
-## Metis Classification Module Project: Predicting Level 2, 3 and 4 Injuries during NYPD Force Incidents
+## Predicting Level 2, 3 and 4 Injuries during NYPD Force Incidents
 
 ### Abstract
 
