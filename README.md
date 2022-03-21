@@ -37,8 +37,8 @@ I used logistic regression for this project because model interpretability - not
 
 For my business problem, a false negative (i.e., predicting a subject won’t suffer a level 2, 3 or 4 injury during a force incident when they actually will) is worse than a false positive (i.e., predicting a subject will suffer a level 2, 3 or 4 injury when they won’t). Therefore, I evaluated each iteration of the logistic regression model based on its recall and F2 scores.
 
-**Recall score of holdout dataset: 0.576**
-**F2 score of holdout dataset: 0.157**
+- **Recall score of holdout dataset: 0.576**
+- **F2 score of holdout dataset: 0.157**
 
 ### Tools
 
@@ -48,6 +48,7 @@ For my business problem, a false negative (i.e., predicting a subject won’t su
 - Tableau, Seaborn and Matplotlib for data visualizations
 - SQL for data storage
     
-# Communication
+### Communication
+
 My complete code and presentation slides are available in this project's repo.
     
