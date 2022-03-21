@@ -2,7 +2,7 @@
 
 ### Abstract
 
-The goal of this project was to use a classification model to a) predict whether a non-NYPD subject will suffer a level 2, 3 or 4 injury during a force incident and b) identify factors that are most useful in making these predictions. By leveraging feature engineering, oversampling methods and hyperparameter tuning, I built a model that identified the type of force used by an NYPD member of service (e.g., impact weapon) and the basis for the encounter (e.g., vehicle traffic law infraction) as the features with the strongest impact on the probability a non-NYPD subject will suffer a level 2, 3 or 4 injury. In the future, if granted access to more detailed data from the NYPD (such as that referenced in the department's annual [Use of Force Report](https://www1.nyc.gov/assets/nypd/downloads/pdf/use-of-force/use-of-force-2020-issued-2021-12.pdf\), I would like to improve upon the model by adding more/replacing existing features with those that have greater predictive power of whether a non-NYPD subject suffers a level 2, 3 or 4 injury.
+The goal of this project was to use a classification model to a) predict whether a non-NYPD subject will suffer a level 2, 3 or 4 injury during a force incident and b) identify factors that are most useful in making these predictions. By leveraging feature engineering, oversampling methods and hyperparameter tuning, I built a model that identified the type of force used by an NYPD member of service (e.g., impact weapon) and the basis for the encounter (e.g., vehicle traffic law infraction) as the features with the strongest impact on the probability a non-NYPD subject will suffer a level 2, 3 or 4 injury. In the future, if granted access to more detailed data from the NYPD (such as that referenced in the department's annual [Use of Force Report](https://www1.nyc.gov/assets/nypd/downloads/pdf/use-of-force/use-of-force-2020-issued-2021-12.pdf), I would like to improve upon the model by adding more/replacing existing features with those that have greater predictive power of whether a non-NYPD subject suffers a level 2, 3 or 4 injury.
 
 ### Design
 
@@ -13,9 +13,9 @@ My hypothesis was the following: by being able to predict whether a non-NYPD sub
 ### Data
 
 I compiled the data using three separate datasets publicly available from New York City's Open Data website:
-- <a href=\"https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d\">NYPD Use of Force Incidents</a>
-- <a href=\"https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Subjects/dufe-vxb7\">NYPD Use of Force: Subjects</a>
-- <a href=\"https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Members-of-Service/v5jd-6wqn\">NYPD Use of Force: Members of Service</a>
+- [NYPD Use of Force Incidents](https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Incidents/f4tj-796d)
+- [NYPD Use of Force: Subjects](https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Subjects/dufe-vxb7)
+- [NYPD Use of Force: Members of Service](https://data.cityofnewyork.us/Public-Safety/NYPD-Use-of-Force-Members-of-Service/v5jd-6wqn)
 
 All of the force incidents occurred between January 2020 - December 2021.
 
