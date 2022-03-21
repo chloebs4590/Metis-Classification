@@ -47,7 +47,7 @@ For my business problem, a false negative (i.e., predicting a subject won’t su
 - Scikit-learn for modeling
 - Tableau, Seaborn and Matplotlib for data visualizations
 - SQL for data storage
-    
+
 ### Communication
 
 My complete code and presentation slides are available in this project's repo.
