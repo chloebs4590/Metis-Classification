@@ -1,14 +1,12 @@
-## Predicting Level 2, 3 and 4 Injuries during NYPD Force Incidents
+## Predicting Injures During NYPD Force Incidents
 
 ### Abstract
 
-The goal of this project was to use a classification model to a) predict whether a non-NYPD subject will suffer a level 2, 3 or 4 injury during a force incident and b) identify factors that are most useful in making these predictions. By leveraging feature engineering, oversampling methods and hyperparameter tuning, I built a model that identified the type of force used by an NYPD member of service (e.g., impact weapon) and the basis for the encounter (e.g., vehicle traffic law infraction) as the features with the strongest impact on the probability a non-NYPD subject will suffer a level 2, 3 or 4 injury. In the future, if granted access to more detailed data from the NYPD (such as that referenced in the department's annual [Use of Force Report](https://www1.nyc.gov/assets/nypd/downloads/pdf/use-of-force/use-of-force-2020-issued-2021-12.pdf), I would like to improve upon the model by adding more/replacing existing features with those that have greater predictive power of whether a non-NYPD subject suffers a level 2, 3 or 4 injury.
+The goal of this project was to build a classification model to a) predict whether a non-NYPD subject will suffer a level 2, 3 or 4 injury during a force incident and b) identify factors that are most useful in making these predictions. By leveraging feature engineering, oversampling methods and hyperparameter tuning, I built a model that identified the type of force used by an NYPD member of service (e.g., impact weapon) and the basis for the encounter (e.g., vehicle traffic law infraction) as the features with the strongest impact on the probability a non-NYPD subject will suffer a level 2, 3 or 4 injury. In the future, if granted access to more detailed data from the NYPD (such as that referenced in the department's annual [Use of Force Report](https://www1.nyc.gov/assets/nypd/downloads/pdf/use-of-force/use-of-force-2020-issued-2021-12.pdf), I would like to improve upon the model by adding more/replacing existing features with those that have greater predictive power of whether a non-NYPD subject suffers a level 2, 3 or 4 injury.
 
 ### Design
 
-I designed this project with the New York City Police Department as my hypothetical client. In this scenario, they are interested in improving their relationship with the communities they serve. One way in which they seek to do this is by reducing the rate of level 2, 3 and 4 injuries (i.e., serious-level injuries) among non-NYPD subjects involved in force incidents.
-
-My hypothesis was the following: by being able to predict whether a non-NYPD subject involved in a force incident will suffer a level 2, 3 or 4 injury based on various aspects of a force incident and those involved - such as the type of force used by 1+ members of service and the type of force used (if any) by non-NYPD subjects - the NYPD will be able to identify which aspects contribute most to the likelihood of these injuries occuring and can make changes to its training and use of force policy based on them to reduce the rate of non-NYPD subjects suffering from injuries of these levels.
+I designed this project with the New York City Police Department as my hypothetical client. In this scenario, they are interested in improving their relationship with the communities they serve. One way in which they seek to do this is by reducing the rate of level 2, 3 and 4 injuries (i.e., substantial injuries or worse) among non-NYPD subjects involved in force incidents.
 
 ### Data
 
@@ -46,9 +44,4 @@ For my business problem, a false negative (i.e., predicting a subject won’t su
 - Imblearn for resampling unbalanced classes
 - Scikit-learn for modeling
 - Tableau, Seaborn and Matplotlib for data visualizations
-- SQL for data storage
-
-### Communication
-
-My complete code and presentation slides are available in this project's repo.
     
